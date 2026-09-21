@@ -11,7 +11,7 @@
   Status: Completed
 
 ### 1. Objective
-  * Define the 3D coordinate frame at the pylon-to-wing interface, resolve multi-axis engine forces into a single 3D resultant vector, and size the primary clevis pin under double-shear loading to meet the Factor of Safety constraint (FoS ≥ 2.0).
+  Define the 3D coordinate frame at the pylon-to-wing interface, resolve multi-axis engine forces into a single 3D resultant vector, and size the primary clevis pin under double-shear loading to meet the Factor of Safety constraint (FoS ≥ 2.0).
 
 ### 2. Applied Load Profile
   * Origin: Center of the primary wing attachment interface.
