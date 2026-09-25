@@ -28,17 +28,12 @@ Evaluated against 3D static load vectors (Fx = 18.5 kN, Fy = 8.2 kN, Fz = 21.5 k
 ```text
 turbofan-engine-pylon-mount/
 ├── assets/
-│   └── .gitkeep             # Rendered CAD images & orthographic views
-├── data/
-│   ├── load_vectors.json    # Raw force vector input definitions
-│   └── al_7075_t6_specs.json # Material property constants
+│   ├── bottom_counterbores.png
+│   ├── isometric_view.png
+│   └── side_profile.png
 ├── models/
 │   ├── pylon_mount.SLDPRT   # Native SolidWorks 2026 part file
 │   └── pylon_mount.STEP     # Neutral 3D CAD exchange format
-├── src/
-│   ├── vector_math.py       # 3D force resolution module
-│   ├── pin_sizing.py        # Clevis pin shear math
-│   └── mass_calculator.py   # Volumetric mass verification
 ├── .gitignore               # Excludes SW lock files & Python cache
 ├── Engineering_Report.md    # Formal structural & manufacturing report
 ├── LICENSE                  # MIT License
